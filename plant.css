@@ -1,0 +1,62 @@
+* {margin: 0; padding: 0;}
+
+body {
+  background: #46803f;
+}
+
+div {
+  margin: 40px;
+}
+
+ul {
+  list-style-type: none;
+  width: 500px;
+}
+
+.rubrik {
+    padding-left: 85px;
+    font: bold 40px/1.5 Helvetica, Verdana, sans-serif;
+  }
+
+.text_under {
+    padding-left: 85px;
+    font: bold 20px/1.0 Helvetica, Verdana, sans-serif;
+    font-style: italic;
+}
+
+h3 {
+  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+}
+
+.rubrik img {
+  width: 80px;
+  float: left;
+  margin: 0 0 0 -50;  
+}
+
+.rubrik img:hover {
+  background: #0094259c;
+  cursor: pointer;  
+}
+
+li img {
+  width: 150px;  
+  float: left;
+  margin: 0 15px 0 0;
+}
+
+li p {
+  
+  overflow: hidden;
+  font: 200 14px/1.5 Georgia, Times New Roman, serif;
+}
+
+li {
+  padding: 10px;
+  overflow: auto;
+}
+
+li:hover {
+  background: #0094259c;
+  cursor: pointer;
+}
